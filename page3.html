@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Note</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f1e4;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png');
+            background-size: cover;
+        }
+
+        .note {
+            font-size: 20px;
+            font-weight: normal;
+            color: #4a2c2a;
+            animation: fadeIn 2s ease-in-out;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            max-width: 80%;
+            line-height: 1.6;
+            border: 2px solid #5a3825;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .next-button {
+            margin-top: 15px;
+            background: #d16ba5;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .next-button:hover {
+            background: #c15c97;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="note">
+        I miss you so much right now<br>
+        That's why I am making these notes for you.<br><br>
+         I am always here with you<br>
+        I LOVEEE YOUUU ❤️<br><br>
+        "Whenever you feel low or miss me<br>
+        come here and read these texts it will help you <br><br>
+        "Thank You so much for being in my lifeeee sweetheart."<br><br>
+        "Just thank you for being in my life, mwaahhh, You are my everything"
+    </div>
+
+    <button class="next-button" onclick="location.href='page4.html'">Next</button>
+
+</body>
+</html>
